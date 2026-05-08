@@ -2,26 +2,28 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
+  padding-top: 5px;
+  border-bottom: 1px solid gray;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .logo img {
   height: 80px;
   width: auto;
 }
-
+/*
 .logo p {
   font-family: sans-serif;
   font-size: 25px;
   font-weight: 500;
 }
-
+*/
 .navbar {
   display: flex;
   gap: 25px;
@@ -57,4 +59,8 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+body {
+  margin: 0px;
 }
