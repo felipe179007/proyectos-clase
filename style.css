@@ -5,6 +5,7 @@ header {
   padding: 10px;
   padding-top: 5px;
   border-bottom: 2px solid gray;
+  margin: 0px;
 }
 
 .logo {
@@ -35,6 +36,7 @@ header {
   font-family: sans-serif;
   font-size: 25px;
   font-weight: 500;
+  margin: 0px;
 }
 
 a {
@@ -47,6 +49,42 @@ a:hover {
   text-decoration: underline;
 }
 
+.head-title {
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 30px;
+  color: #1d1d1f;
+}
+
+main {
+  font-family: sans-serif;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 40px;
+}
+
 body {
   margin: 0px;
+}
+
+.hero1{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.hero1 img {
+  height: 200px;
+  width: auto;
+}
+
+.product-card{
+  text-align: center;
+  border: 2px solid #1ebad1;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.product-description {
+  color: #6e6e73;
 }
