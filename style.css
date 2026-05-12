@@ -4,8 +4,9 @@ header {
   align-items: center;
   padding: 10px;
   padding-top: 5px;
-  border-bottom: 2px solid gray;
+  border-bottom: 4px solid #eaf8ff;
   margin: 0px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 .logo {
@@ -70,7 +71,7 @@ body {
 .hero1{
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 40px;
 }
 
 .hero1 img {
@@ -80,9 +81,9 @@ body {
 
 .product-card{
   text-align: center;
-  border: 2px solid #1ebad1;
   border-radius: 30px;
   padding: 10px;
+  background-color: #eaf8ff;
 }
 
 .product-description {
