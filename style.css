@@ -84,6 +84,17 @@ body {
   border-radius: 30px;
   padding: 10px;
   background-color: #eaf8ff;
+  gap: 10px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  border: 3px solid #0071e3;
+  border-radius: 10px;
+  padding: 8px;
+  background-color: #0071e3;
+  color: white;
 }
 
 .product-description {
