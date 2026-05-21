@@ -1,0 +1,23 @@
+@startuml ejercicios
+class Estudiante {
+    -nombre: String
+    -curso: String
+    -cedula: Int
+
+}
+
+class TareasAsignadas {
+    -nombreMateria: String
+    -fechaVencimiento: Date
+    -completada: Boolean
+}
+
+class Cursos {
+    -nombreCurso: String
+    -profesor: String
+}
+
+Estudiante "1" -- "0..*" TareasAsignadas: Tiene 
+Estudiante "1" -- "0..*" Cursos: Realiza
+
+@enduml
