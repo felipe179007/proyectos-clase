@@ -9,13 +9,15 @@ header {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
-.logo {
+.logo-container {
   display: flex;
   align-items: center;
   gap: 5px;
+  height: 80px;
+  width: auto;
 }
 
-.logo img {
+.logo-container img {
   height: 80px;
   width: auto;
 }
@@ -23,9 +25,6 @@ header {
 .navbar {
   display: flex;
   gap: 25px;
-}
-
-.navbar {
   text-decoration: none;
   color: black;
   font-family: sans-serif;
@@ -44,7 +43,7 @@ a:hover {
   text-decoration: underline;
 }
 
-.head-title {
+.hero-title {
   text-align: center;
   font-weight: 400;
   padding-bottom: 30px;
@@ -62,19 +61,19 @@ body {
   margin: 0px;
 }
 
-.hero1{
+.hero {
   display: flex;
   justify-content: space-between;
   gap: 40px;
   margin-bottom: 40px;
 }
 
-.hero1 img {
+.hero img {
   height: 200px;
   width: auto;
 }
 
-.product-card{
+.hero-product-card{
   text-align: center;
   border-radius: 30px;
   padding: 10px;
@@ -82,11 +81,11 @@ body {
   gap: 10px;
 }
 
-.button {
+.default-button {
   display: inline-block;
   margin-top: 10px;
   border: 3px solid #0071e3;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 8px;
   background-color: #0071e3;
   color: white;
@@ -96,20 +95,24 @@ body {
   color: #6e6e73;
 }
 
-.division {
-  margin-left: -40px;
-  margin-right: -40px;
-  border: solid 3px#eaf8ff;
-  margin-bottom: -20px;
-}
-
-.after-hero{
+.after-hero {
   background-color: #eaf8ff;
   margin-left: -40px;
   margin-right: -40px;
 }
 
-.why-choose-apple-title{
+.why-choose-apple {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  background-color: #eaf8ff;
+  margin-left: -40px;
+  margin-right: -40px;
+  
+}
+
+.why-choose-apple-title {
   text-align: center;
   font-weight: 2000;
   padding-top: 30px;
@@ -124,13 +127,6 @@ body {
   width: auto;
 }
 
-.why-choose-apple {
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  padding-bottom: 40px;
-}
-
 .why-choose-apple-cards {
   background-color: #ffffff;
   border: 2px solid white;
@@ -142,27 +138,44 @@ body {
   text-align: center;
 }
 
-.iphone-18-promo {
+.iphone-17-promo-container {
   background-color: black;
   margin-top: -40px;
   margin-bottom: -40px;
   margin-left: -40px;
   margin-right: -40px;
-  color: #ffffff;
+  color: #eaf8ff;
   padding-top: 40px;
+  text-align: center;
+
 }
 
-.iphone-18-promo h1 {
-  text-align: center;
-}
-.iphone-18-promo p {
-  text-align: center;
-  color: #f5f5f7;
-  font-size: 25px;
-}
-
-.iphone-18-promo img {
+.iphone-17-promo-container img {
   border-radius: 15px;
-  height: 750px;
+  height: 720px;
   width: auto;
+}
+
+.iphone-17-promo-title {
+  color: #f5f5f7;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.iphone-17-prod-desc-container {
+  width: 900px;
+  font-size: 25px;
+  color: #6e6e73;
+  text-align: center;
+}
+
+.iphone-17-pro-buy-button {
+  display: inline-block;
+  margin-top: 8px;
+  border: 3px solid #0071e3;
+  border-radius: 40px;
+  padding: 18px;
+  background-color: #0071e3;
+  color: white;
+  font-size: 18px;
 }

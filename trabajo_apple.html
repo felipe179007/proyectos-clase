@@ -6,22 +6,22 @@
   </head>
   <body>
     <header>
-      <div class="logo">
+      <div class="logo-container"> <!-- container del loco es class logo-->
         <img src="apple.png" alt="Apple logo" />
-        <!-- <p><b>Apple</b></p> -->
       </div>
 
-      <div class="navbar">
-        <a href="https://www.apple.com/la/iphone/">iPhone</a>
-        <a href="https://www.apple.com/la/mac/">Mac</a>
-        <a href="https://www.apple.com/la/ipad/">iPad</a>
-        <a href="https://www.apple.com/la/support/">Soporte</a>
+      <div class="navbar"> 
+        <a class="default-link" href="https://www.apple.com/la/iphone/">iPhone</a>
+        <a class="default-link" href="https://www.apple.com/la/mac/">Mac</a>
+        <a class="default-link" href="https://www.apple.com/la/ipad/">iPad</a>
+        <a class="default-link" href="https://www.apple.com/la/support/">Soporte</a>
       </div>
     </header>
+
     <main>
-      <h1 class="head-title"><b>Tecnología diseñada para el futuro.</b></h1>
-      <div class="hero1">
-        <section class="product-card">
+      <h1 class="hero-title"><b>Tecnología diseñada para el futuro.</b></h1>
+      <div class="hero">
+        <section class="hero-product-card">
           <h1>iPhone air</h1>
           <img src="iphone-air-hero.png" alt="iphone air" />
           <p><b>Ultradelgado. Ultrapotente.</b></p>
@@ -29,12 +29,12 @@
             Diseñado para ofrecer máximo rendimiento en un diseño increíblemente
             ligero y moderno.
           </p>
-          <a class="button" href="https://www.apple.com/la/iphone-air/"
+          <a class="default-button" href="https://www.apple.com/la/iphone-air/"
             >Más información</a
           >
         </section>
 
-        <section class="product-card">
+        <section class="hero-product-card">
           <h1>MacBook</h1>
           <img src="macbook.png" alt="macbook" />
           <p><b>Potencia para crear sin límites.</b></p>
@@ -42,13 +42,11 @@
             Diseñada para rendimiento extremo, velocidad y eficiencia en
             cualquier lugar.
           </p>
-          <a class="button" href="https://www.apple.com/la/macbook-pro/"
-            >Más información</a
-          >
+          <a class="default-button" href="https://www.apple.com/la/macbook-pro/"
+            >Más información</a>
         </section>
       </div>
 
-      <hr class="division" />
       <div class="after-hero">
         <h2 class="why-choose-apple-title">¿Por qué elegirnos?</h2>
         <div class="why-choose-apple">
@@ -78,11 +76,21 @@
         </div>
       </div>
 
-      <div class="iphone-18-promo">
-        <h1 class="iphone-18-title">El presente y futuro</h1>
-        <p><b>iPhone 17 Pro Max.</b></p>
+      <div class="iphone-17-promo-container">
+        <h1 class="iphone-17-promo-title"><b>iPhone 17 Pro Max</b></h1>
         <img src="iphones 17 pro max.png" alt="iphone 17 pro max colors" />
-        <p>Estructura unibody. La innovación hace la fuerza.</p>
+        <center>
+          <div class="iphone-17-prod-desc-container">
+            <p class="iphone-17-prod-desc">
+              Presentamos el iPhone 17 Pro y el iPhone 17 Pro Max. Diseñados de
+              adentro hacia fuera para ser los modelos de iPhone más poderosos
+              que existen. La base del nuevo diseño es una estructura unibody de
+              aluminio forjado en caliente que lleva la resistencia, el
+              rendimiento y la batería a nuevas dimensiones.
+            </p>
+          </div>
+          <a class="iphone-17-pro-buy-button" href="iphone.html">Compra ahora</a>
+        </center>
       </div>
     </main>
   </body>
