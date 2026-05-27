@@ -5,7 +5,7 @@ header {
   padding: 10px;
   padding-top: 5px;
   margin: 0px;
-  background-color: #1d1d1f;
+  background-color: black;
 }
 
 .logo-container {
@@ -44,5 +44,29 @@ a:hover {
 }
 
 body {
-    margin: 0px;
+  margin: 0px;
+  background-color: black;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.hero-small-slogan-iphone-17-pro {
+  color: #eaf8ff;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.hero-title-iphone-17-pro {
+  color: rgba(120, 130, 160, 0.50);
+  font-size: 100px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  line-height: 70pt;
+}
+
+.hero-img-iphone-17-pro {
+  height: 850px;
+  width: auto;
 }
